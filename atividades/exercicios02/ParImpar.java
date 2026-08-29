@@ -1,9 +1,7 @@
 /*Exercício 1: Par ou Ímpar
 
 Enunciado: Escreva um programa em Java que leia um número inteiro e informe se ele é par ou ímpar.
-
-Conceitos: Operador módulo (%) e estrutura if-else simples.
- */
+Conceitos: Operador módulo (%) e estrutura if-else simples.*/
 
 package atividades.exercicios02;
 
