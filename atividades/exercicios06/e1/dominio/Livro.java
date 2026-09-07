@@ -13,41 +13,40 @@ public class Livro {
     private String autor;
     private int numeroPaginas;
 
+    //Construtor 
+    public Livro(String titulo, String autor, int numeroPaginas) {
+        this.titulo = titulo;
+        this.numeroPaginas = numeroPaginas;
+        this.autor = autor; 
+    } 
+
+    //Getters
+    public String getTitulo() {
+        return titulo;
+    }
+    
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getNumeroPaginas() {
+        return numeroPaginas;
+    }
+
+    //Setters
+    public void setNumeroPaginas(int numeroPaginas) {
+        this.numeroPaginas = numeroPaginas;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
     public void exibirInformacoes() {
         System.out.printf("\n%s\n%s\n%d\n" , titulo , autor , numeroPaginas);
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Livro livro1 = new Livro();
-
-        System.out.printf("Forneca o titulo do livro: ");
-        livro1.titulo = sc.nextLine();
-
-        System.out.printf("Forneca o autor do livro: ");
-        livro1.autor = sc.nextLine();
-
-        System.out.printf("Forneca quantas paginas tem o livro: ");
-        livro1.numeroPaginas = sc.nextInt();
-
-        sc.nextLine();
-
-        Livro livro2 = new Livro();
-
-        System.out.printf("Forneca o titulo do segundo livro: ");
-        livro2.titulo = sc.nextLine();
-
-        System.out.printf("Forneca o autor do segundo livro: ");
-        livro2.autor = sc.nextLine();
-
-        System.out.printf("Forneca quantas paginas tem o segundo livro: ");
-        livro2.numeroPaginas = sc.nextInt();
-
-        livro1.exibirInformacoes();
-        livro2.exibirInformacoes();
-
-        sc.close();
-    }
-
-    
 }
