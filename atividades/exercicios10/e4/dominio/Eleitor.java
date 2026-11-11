@@ -23,7 +23,7 @@ public class Eleitor{
     }
 
     public void cadastrar(String nome, int idade){
-        if((idade >130)||(idade<0)) throws RuntimeException{
+        if((idade >130)||(idade<0)){
             throw new RuntimeException ("Idade invalida");
         }
         else{

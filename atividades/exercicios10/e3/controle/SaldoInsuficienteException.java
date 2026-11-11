@@ -5,8 +5,7 @@ deve lançar a exceção (throws SaldoInsuficienteException) caso o valor solici
 realize saques dentro de um bloco try-catch capturando e exibindo a mensagem de erro.
 Conceitos: Criação de Checked Exceptions (extends Exception), cláusulas throw e throws, e propagação de erros de domínio.*/
 
-package atividades.exercicios10.e3;
-import java.util.InputMismatchException;
+package atividades.exercicios10.e3.controle;
 
 public class SaldoInsuficienteException extends Exception{
     public SaldoInsuficienteException(String mensagem) {

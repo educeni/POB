@@ -7,7 +7,6 @@ Conceitos: Encadeamento de exceções (Exception Chaining), preservação do sta
 
 package atividades.exercicios10.e5.dominio;
 
-import java.util.InputMismatchException;
 import atividades.exercicios10.e5.controle.*;
 
 public class Servico{
@@ -23,14 +22,14 @@ public class Servico{
         return this.caminho;
     }
 
-    public void processarArquivo(String caminho) throws java.io.IOException{
+    public void processarArquivo(String caminho) throws ProcessamentoDadosException{
         try{
             if(caminho == null || caminho.trim().isEmpty()){
                 throw new java.io.IOException("O caminho fornecido para o arquivo está nulo ou vazio.");
             }
             System.out.println("Arquivo " + caminho + " processado com sucesso!");
 
-        }catch(IOException e){
+        }catch(java.io.IOException e){
             throw new ProcessamentoDadosException("Falha ao processar o arquivo no sistema.", e);
         }
     }

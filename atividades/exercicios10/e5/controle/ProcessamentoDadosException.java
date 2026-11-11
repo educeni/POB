@@ -7,8 +7,6 @@ Conceitos: Encadeamento de exceções (Exception Chaining), preservação do sta
 
 package atividades.exercicios10.e5.controle;
 
-import java.util.InputMismatchException;
-import atividades.exercicios10.e5.dominio;
 
 public class ProcessamentoDadosException extends Exception{
     public ProcessamentoDadosException(String mensagem, Throwable causa){
