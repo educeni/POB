@@ -27,7 +27,6 @@ public class Main {
         // Criando os itens
         Eletronico tv = new Eletronico(101, 2000.00);
         Eletronico celular = new Eletronico(102, 1500.00);
-        Alimento pipoca = new Alimento(201, 10.00);
 
         // 1. Criando a lista de itens tributáveis
         List<Tributavel> listaTributaveis = new ArrayList<>();
