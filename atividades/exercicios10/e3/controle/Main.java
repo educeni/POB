@@ -7,7 +7,6 @@ Conceitos: Criação de Checked Exceptions (extends Exception), cláusulas throw
 
 package atividades.exercicios10.e3.controle;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import atividades.exercicios10.e3.dominio.ContaCorrente;
 

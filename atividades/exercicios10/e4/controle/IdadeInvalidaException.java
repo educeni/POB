@@ -6,9 +6,6 @@ Conceitos: Criação de Unchecked Exceptions (extends RuntimeException), valida�
 
 package atividades.exercicios10.e4.controle;
 
-import java.util.InputMismatchException;
-import atividades.exercicios10.e4.dominio.*;
-
 public class IdadeInvalidaException extends RuntimeException{
     public IdadeInvalidaException(String mensagem) {
         super(mensagem);
