@@ -1,4 +1,4 @@
-package.atividades.exercicios08.e3.dominio;
+package atividades.exercicios08.e3.dominio;
 
 public class PushNotificacao extends Notificacao{
     public PushNotificacao(String destinatario) {
@@ -6,7 +6,7 @@ public class PushNotificacao extends Notificacao{
     }
 
     @Override
-    public void enviar(String Mensagem){
+    public void enviar(String mensagem){
         System.out.print("Enviando Push Notification para o dispositivo %s: " + destinatario + "%s\n" + mensagem);
     }
 

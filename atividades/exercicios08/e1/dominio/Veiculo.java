@@ -50,9 +50,7 @@ class Moto extends Veiculo {
         super.exibirDetalhes();
         System.out.println("Cilindradas: " + cilindradas);
     }
-}
 
-public class MainExercicio1 {
     public static void main(String[] args) {
         Veiculo carro = new Carro("Toyota", "Corolla", 4);
         Veiculo moto = new Moto("Honda", "CB500", 500);

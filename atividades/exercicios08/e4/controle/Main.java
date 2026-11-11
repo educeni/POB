@@ -1,6 +1,6 @@
 package atividades.exercicios08.e4.controle;
 
-import atividades.exercicios08.e4.dominio.Circulo.*;
+import atividades.exercicios08.e4.dominio.*;
 
 public class Main {
     public static void main(String[] args) {

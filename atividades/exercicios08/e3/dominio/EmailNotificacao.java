@@ -1,4 +1,4 @@
-package.atividades.exercicios08.e3.dominio;
+package atividades.exercicios08.e3.dominio;
 
 public class EmailNotificacao extends Notificacao{
     public EmailNotificacao(String destinatario) {
@@ -6,7 +6,7 @@ public class EmailNotificacao extends Notificacao{
     }
 
     @Override
-    public void enviar(String Mensagem){
+    public void enviar(String mensagem){
         System.out.print("Enviando E-mail para %s: " + destinatario + "%s\n" + mensagem);
     }
 

@@ -4,7 +4,7 @@ public class Retangulo extends FiguraGeometrica{
     private double largura;
     private double altura;
 
-    public Quadrado(double largura, double altura){
+    public Retangulo(double largura, double altura){
         this.largura = largura;
         this.altura = altura;
     }
