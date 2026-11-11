@@ -5,7 +5,7 @@ import atividades.CADASTRO_PESSOAS.view.*;
 import java.util.ArrayList;
 
 
-public class controlaPessoa{
+public class ControlaPessoa{
     private ArrayList<Pessoa> pessoas;
     private arquivoPessoas repositorioPessoa;
 

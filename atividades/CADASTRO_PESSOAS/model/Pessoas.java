@@ -14,7 +14,7 @@ public class Pessoas{
         this.id = id;
         this.nome = nome;
         this.idade = idade;
-        this.altura = altura
+        this.altura = altura;
     }
 
     //getters

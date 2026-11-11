@@ -5,7 +5,7 @@ import atividades.CADASTRO_PESSOAS.view.*;
 import java.util.ArrayList;
 import java.io.*;
 
-public class repositorioPessoa{
+public class RepositorioPessoa{
     private final String arquivoPessoas = "pessoas.txt";
 
     public void salvarPessoa(ArrayList<Pessoa> pessoas){
